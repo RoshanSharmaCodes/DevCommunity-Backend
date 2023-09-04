@@ -7,10 +7,10 @@ App.use(cors())
 
 
 App.get("/", (req,res)=>{
-    res.send("Hello API Gateway")
+    res.send("Dev Community Backend is Working")
 })
 
-App.get("/Working", (req,res)=>{
+App.get("/UserLogin", (req,res)=>{
     res.send("Working")
 })
 
